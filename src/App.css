@@ -5,8 +5,13 @@
 
 .main-heading {
 	margin: 0 auto;
-	color: blue;
-	font-size: 56px;
+	color: white;
+	font-size: 35px;
+}
+
+.main-section {
+	height: 100vh;
+	padding: 0 0rem;
 }
 
 span::before {
@@ -18,10 +23,12 @@ span::before {
 }
 
 ul {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	display: flex;
 	list-style: none;
+	justify-content: center;
+	align-items: center;
 }
 
 ul li {
@@ -29,6 +36,26 @@ ul li {
 	font-size: 6rem;
 	letter-spacing: 10px;
 	animation: lighting 2s linear infinite;
+}
+
+.about-me {
+	text-align: left;
+	background-color: rgb(25, 21, 89);
+	color: white;
+	padding: 2rem;
+}
+
+.about-me-info {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.about-me-info h1 {
+	color: rgb(255, 251, 0);
+}
+
+.about-me p {
+	font-size: 2rem;
 }
 
 @keyframes lighting {
