@@ -10,6 +10,7 @@ import mongodbLogo from "../../images/mongodb.png";
 import javascriptLogo from "../../images/javascript.png";
 import nodeLogo from "../../images/node-js.png";
 import pythonLogo from "../../images/python.png";
+import gitLogo from "../../images/git.png";
 import "./Skills.css";
 
 const Skills = () => {
@@ -25,6 +26,7 @@ const Skills = () => {
 		typescriptLogo,
 		firebaseLogo,
 		pythonLogo,
+		gitLogo,
 	];
 
 	const logoImage = "logo-image";
@@ -32,6 +34,7 @@ const Skills = () => {
 	return (
 		<div id="skills">
 			<h1>Skills And Technologies</h1>
+			<div className="heart"></div>
 			<div className="skills-container">
 				{images.map((img, index) => {
 					return (

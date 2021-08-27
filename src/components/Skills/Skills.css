@@ -32,6 +32,43 @@
 	transform: rotate(var(--rotation));
 }
 
+.heart {
+	width: 4rem;
+	height: 4rem;
+	background-color: red;
+	top: 24rem;
+	position: relative;
+	margin: auto;
+	transform: rotate(135deg);
+	animation: heartBeat 1.4s linear infinite;
+}
+
+.heart::before {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateY(50%);
+	z-index: 330;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.heart::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateX(-50%);
+	z-index: 331;
+	background-color: red;
+	border-radius: 50%;
+}
+
 .skills-container .image-1 {
 	--rotation: 30deg;
 }
@@ -65,6 +102,30 @@
 }
 .skills-container .image-11 {
 	--rotation: 330deg;
+}
+.skills-container .image-12 {
+	--rotation: 360deg;
+}
+
+@keyframes heartBeat {
+	0% {
+		transform: rotate(135deg) scale(1);
+	}
+	20% {
+		transform: rotate(135deg) scale(1);
+	}
+	30% {
+		transform: rotate(135deg) scale(1.4);
+	}
+	50% {
+		transform: rotate(135deg) scale(1.2);
+	}
+	70% {
+		transform: rotate(135deg) scale(1.4);
+	}
+	100% {
+		transform: rotate(135deg) scale(1);
+	}
 }
 
 @keyframes rotateSkills {
