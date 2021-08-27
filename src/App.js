@@ -1,7 +1,9 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import AboutMe from "./components/AboutMe/AboutMe";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
+import Skills from "./components/Skills/Skills";
 
 function App() {
 	return (
@@ -31,23 +33,8 @@ function App() {
 						I Love <span></span>
 					</h3>
 				</div>
-
-				<div className="about-me" id="about">
-					<div className="about-me-info">
-						<h1>About Me: </h1>
-
-						<p>
-							I am curious person who loves to know how different things work
-							together. I love to <i>BUILD STUFF</i> and connect with people
-							smarter than me!
-						</p>
-						<p>
-							When I am not smashing the keyboard, you will find me playing
-							basketball, reading or watching anime.
-						</p>
-						<p></p>
-					</div>
-				</div>
+				<AboutMe />
+				<Skills />
 			</div>
 		</BrowserRouter>
 	);

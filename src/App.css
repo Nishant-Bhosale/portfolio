@@ -3,6 +3,11 @@
 	background-color: rgb(107, 104, 104);
 }
 
+:root {
+	scroll-behavior: smooth;
+	scroll-padding-top: 47px;
+}
+
 .main-heading {
 	margin: 0 auto;
 	color: white;
@@ -12,13 +17,21 @@
 .main-section {
 	height: 100vh;
 	padding: 0 0rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+span {
+	font-size: 3.5rem;
 }
 
 span::before {
 	content: "WEB DEVELOPMENT";
 	text-transform: uppercase;
 	font-family: arial;
-	color: #1b1464;
+	color: #12f5f5;
 	animation: switchWords 5s infinite ease-in-out;
 }
 
@@ -55,7 +68,7 @@ ul li {
 }
 
 .about-me p {
-	font-size: 2rem;
+	font-size: 1.75rem;
 }
 
 @keyframes lighting {

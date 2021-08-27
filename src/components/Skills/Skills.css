@@ -1,0 +1,65 @@
+.skills-container {
+	height: 700px;
+	width: 700px;
+	/* background-color: white; */
+	border-radius: 50%;
+	position: relative;
+	margin: auto;
+	animation: rotateSkills 25s linear infinite;
+}
+
+.skills-container .logo-image {
+	--rotation: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: 1rem;
+	transform: rotate(var(--rotation));
+}
+
+.skills-container .image-1 {
+	--rotation: 30deg;
+}
+
+.skills-container .image-2 {
+	--rotation: 60deg;
+}
+.skills-container .image-3 {
+	--rotation: 90deg;
+}
+.skills-container .image-4 {
+	--rotation: 120deg;
+}
+.skills-container .image-5 {
+	--rotation: 150deg;
+}
+.skills-container .image-6 {
+	--rotation: 180deg;
+}
+.skills-container .image-7 {
+	--rotation: 210deg;
+}
+.skills-container .image-8 {
+	--rotation: 240deg;
+}
+.skills-container .image-9 {
+	--rotation: 270deg;
+}
+.skills-container .image-10 {
+	--rotation: 300deg;
+}
+.skills-container .image-11 {
+	--rotation: 330deg;
+}
+
+@keyframes rotateSkills {
+	0% {
+		transform: rotateZ(0);
+		/* height: 700px;
+		width: 700px; */
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
