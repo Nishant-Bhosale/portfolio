@@ -11,7 +11,7 @@ function App() {
 			<div className="App">
 				<Navbar />
 				<div className="main-section">
-					<h1 style={{ color: "white" }}>Hii, I Am</h1>
+					<h1 style={{ color: "rgb(255, 251, 0)" }}>Hii, I Am</h1>
 					<ul>
 						<li>N</li>
 						<li>I</li>

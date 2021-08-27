@@ -1,7 +1,21 @@
+#skills {
+	height: 1000px;
+	width: 100%;
+	background-color: rgb(0, 255, 157);
+	text-align: left;
+}
+
+#skills > h1 {
+	color: white;
+	margin-top: -1rem;
+	margin-left: 13.75rem;
+	padding: 3rem;
+	font-size: 3rem;
+}
+
 .skills-container {
 	height: 700px;
 	width: 700px;
-	/* background-color: white; */
 	border-radius: 50%;
 	position: relative;
 	margin: auto;

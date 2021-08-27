@@ -13,17 +13,17 @@ import pythonLogo from "../../images/python.png";
 import "./Skills.css";
 
 const Skills = () => {
-	const arr = [
-		ReactLogo,
-		cssLogo,
-		expressLogo,
+	const images = [
 		htmlLogo,
-		typescriptLogo,
-		javaLogo,
-		firebaseLogo,
-		mongodbLogo,
+		cssLogo,
 		javascriptLogo,
+		mongodbLogo,
+		expressLogo,
+		ReactLogo,
 		nodeLogo,
+		javaLogo,
+		typescriptLogo,
+		firebaseLogo,
 		pythonLogo,
 	];
 
@@ -31,8 +31,9 @@ const Skills = () => {
 
 	return (
 		<div id="skills">
+			<h1>Skills And Technologies</h1>
 			<div className="skills-container">
-				{arr.map((img, index) => {
+				{images.map((img, index) => {
 					return (
 						<div className={logoImage + " image-" + (index + 1)} key={index}>
 							<img src={img} alt="" />

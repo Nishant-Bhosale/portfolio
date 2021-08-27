@@ -15,7 +15,6 @@ const Navbar = () => {
 		<div className="navbar">
 			<div className="navbar__content content-container-fluid">
 				<a className="navbar__title" href="/">
-					{/* <img src="./Nb.jpg" alt="Nishant Bhosale Logo" /> */}
 					<h1>Nishant Bhosale</h1>
 				</a>
 				<button

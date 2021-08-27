@@ -1,16 +1,16 @@
 .App {
 	text-align: center;
-	background-color: rgb(107, 104, 104);
+	background-color: rgb(31, 195, 224);
 }
 
 :root {
 	scroll-behavior: smooth;
-	scroll-padding-top: 47px;
+	scroll-padding-top: 0px;
 }
 
 .main-heading {
 	margin: 0 auto;
-	color: white;
+	color: rgb(255, 251, 0);
 	font-size: 35px;
 }
 
@@ -31,7 +31,8 @@ span::before {
 	content: "WEB DEVELOPMENT";
 	text-transform: uppercase;
 	font-family: arial;
-	color: #12f5f5;
+	/* color: #12f5f5; */
+	color: black;
 	animation: switchWords 5s infinite ease-in-out;
 }
 
@@ -65,6 +66,7 @@ ul li {
 
 .about-me-info h1 {
 	color: rgb(255, 251, 0);
+	font-size: 3rem;
 }
 
 .about-me p {
