@@ -1,0 +1,97 @@
+.navbar {
+	background: black;
+}
+
+.navbar .navbar__content.content-container-fluid {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-between;
+	padding: 0.75rem 8px;
+}
+
+@media (min-width: 450px) {
+	.navbar .navbar__content.content-container-fluid {
+		padding-left: 3.2rem;
+		padding-right: 3.2rem;
+	}
+}
+
+.navbar__title {
+	display: flex;
+	align-items: center;
+	width: 230px;
+	color: white;
+	text-decoration: none;
+}
+
+.navbar__title h1 {
+	margin: 0;
+	font-size: 1.3rem;
+	line-height: 1.4;
+}
+
+.navbar__title img {
+	max-height: 56px;
+	max-width: 56px;
+	margin-right: 4px;
+}
+
+.navbar .navbar__menu {
+	background: none;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 8px;
+}
+
+.navbar .navbar__menu svg {
+	font-size: 40px;
+}
+
+.navbar-links {
+	height: 0;
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	overflow-y: hidden;
+	transition: 0.4s ease;
+}
+
+.navbar-links.expanded {
+	height: 288px;
+	visibility: visible;
+}
+
+.navbar-links a {
+	color: white;
+	text-decoration: none;
+	margin: 0;
+	padding: 16px;
+	text-align: center;
+	transition: 0.3s ease;
+}
+
+.navbar-links a:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (min-width: 801px) {
+	.navbar .navbar__menu {
+		display: none;
+	}
+
+	.navbar h1 {
+		font-size: 1.75rem;
+	}
+
+	.navbar-links,
+	.navbar-links.expanded {
+		visibility: visible;
+		height: unset;
+		flex-basis: unset;
+		flex-direction: row;
+		align-items: center;
+	}
+}

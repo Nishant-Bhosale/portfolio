@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { MdMenu } from "react-icons/md";
+import "./Navbar.css";
 
 const Navbar = () => {
 	let [expanded, setExpanded] = useState(false);
@@ -20,8 +21,8 @@ const Navbar = () => {
 		<div className="navbar">
 			<div className="navbar__content content-container-fluid">
 				<Link className="navbar__title" to="/">
-					{/* <img src="/images/jt_logo.svg" alt="Jake Tripp Logo" /> */}
-					<h1>Jake Tripp</h1>
+					{/* <img src="./Nb.jpg" alt="Nishant Bhosale Logo" /> */}
+					<h1>Nishant Bhosale</h1>
 				</Link>
 				<button
 					className="navbar__menu"
@@ -32,16 +33,16 @@ const Navbar = () => {
 				</button>
 				<div className={`navbar-links${navLinksState}`}>
 					<Link to="/">Home</Link>
-					<Link to="/#about" scroll={scroll}>
+					<Link to="/#about" onScroll={scroll}>
 						About
 					</Link>
-					<Link to="/#skills" scroll={scroll}>
+					<Link to="/#skills" onScroll={scroll}>
 						Skills
 					</Link>
-					<Link to="/#work" scroll={scroll}>
+					<Link to="/#work" onScroll={scroll}>
 						Work
 					</Link>
-					<Link to="/#contact" scroll={scroll}>
+					<Link to="/#contact" onScroll={scroll}>
 						Contact
 					</Link>
 				</div>
