@@ -1,5 +1,6 @@
 .navbar {
 	position: fixed;
+	height: auto;
 	width: 100%;
 	z-index: 3000;
 	background: black;
@@ -32,6 +33,7 @@
 	margin: 0;
 	font-size: 1.3rem;
 	line-height: 1.4;
+	font-family: "Parisienne", cursive;
 }
 
 .navbar__title img {

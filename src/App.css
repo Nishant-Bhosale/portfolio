@@ -1,3 +1,7 @@
+* {
+	font-family: "Lora", serif;
+}
+
 .App {
 	text-align: center;
 	background-color: rgb(31, 195, 224);
@@ -5,7 +9,7 @@
 
 :root {
 	scroll-behavior: smooth;
-	scroll-padding-top: 0px;
+	scroll-padding-top: 30px;
 }
 
 .main-heading {
@@ -30,9 +34,7 @@ span {
 span::before {
 	content: "WEB DEVELOPMENT";
 	text-transform: uppercase;
-	font-family: arial;
-	/* color: #12f5f5; */
-	color: black;
+	color: #f57812;
 	animation: switchWords 5s infinite ease-in-out;
 }
 
@@ -47,6 +49,7 @@ ul {
 
 ul li {
 	color: #484848;
+	font-family: "Cinzel Decorative", cursive !important;
 	font-size: 6rem;
 	letter-spacing: 10px;
 	animation: lighting 2s linear infinite;
@@ -133,9 +136,12 @@ ul li:nth-child(14) {
 
 @keyframes switchWords {
 	0% {
-		content: "WEB DEV";
+		content: "WEB DEVELOPMENT";
 	}
-	50% {
+	30% {
+		content: "TO BUILD";
+	}
+	60% {
 		content: "REACT JS";
 	}
 	100% {
