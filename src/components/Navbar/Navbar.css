@@ -73,13 +73,48 @@
 	color: white;
 	text-decoration: none;
 	margin: 0;
-	padding: 16px;
+	padding: 10px 16px;
+	border: 3px solid white;
+	position: relative;
+	margin: 0.05rem 0.25rem;
 	text-align: center;
-	transition: 0.3s ease;
+	transition: all 0.5s ease-in-out;
+	overflow: hidden;
 }
 
 .navbar-links a:hover {
-	background: rgba(255, 255, 255, 0.1);
+	color: black;
+}
+
+.navbar-links a::before {
+	content: "";
+	z-index: -1;
+	height: 100%;
+	width: 45%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgb(70, 223, 243);
+	animation: moveLinkBackground 1.4s linear infinite;
+	transform: skew(-15deg);
+	transition: all 0.4s ease-in-out;
+}
+
+.navbar-links a:hover::before {
+	background-color: rgb(70, 223, 243);
+	transform: skew(0);
+	width: 100%;
+	color: black;
+	animation: none;
+}
+
+@keyframes moveLinkBackground {
+	from {
+		left: -50%;
+	}
+	to {
+		left: 100%;
+	}
 }
 
 @media screen and (min-width: 801px) {
