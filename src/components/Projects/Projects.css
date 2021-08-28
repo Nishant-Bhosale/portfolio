@@ -1,0 +1,34 @@
+.projects-container {
+	height: auto;
+	width: 100%;
+}
+
+.project-container {
+	height: 300px;
+	position: relative;
+	margin: 1rem auto;
+	width: 500px;
+	border: 2px solid black;
+}
+
+.project-container:hover .project-description {
+	opacity: 1;
+}
+
+.image-wrapper {
+	width: 100%;
+	height: 300px;
+	aspect-ratio: 16 / 9;
+}
+
+.project-description {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background-color: rgba(204, 204, 204, 0.568);
+	z-index: 400;
+	transition: all 0.5s ease-in-out;
+}

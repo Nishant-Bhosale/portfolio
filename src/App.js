@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 
 function App() {
 	return (
@@ -35,6 +36,7 @@ function App() {
 				</div>
 				<AboutMe />
 				<Skills />
+				<Projects />
 			</div>
 		</BrowserRouter>
 	);

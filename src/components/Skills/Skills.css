@@ -2,12 +2,13 @@
 	height: 1000px;
 	width: 100%;
 	/* background-color: rgb(0, 255, 157); */
-	background-color: rgb(4, 231, 220);
+	/* background-color: rgb(4, 231, 220); */
+	background-color: antiquewhite;
 	text-align: left;
 }
 
 #skills > h1 {
-	color: white;
+	color: black;
 	margin-top: -1rem;
 	margin-left: 13.75rem;
 	padding: 3rem 0rem 0rem 3rem;
