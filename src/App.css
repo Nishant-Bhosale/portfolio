@@ -55,8 +55,8 @@ ul {
 ul li {
 	color: #484848;
 	font-family: "Cinzel Decorative", cursive !important;
-	font-size: 6rem;
-	letter-spacing: 10px;
+	font-size: 5rem;
+	/* letter-spacing: 5px; */
 	animation: lighting 2s linear infinite;
 }
 

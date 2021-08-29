@@ -15,8 +15,12 @@ const Project = (props) => {
 			</div>
 			<div className="project-description">
 				<h1>{title}</h1>
-				<a href={demoLink}>View Demo</a>
-				<a href={sourceCodeLink}>Source Code</a>
+				<a href={demoLink} className="button-link">
+					View Demo
+				</a>
+				<a href={sourceCodeLink} className="button-link">
+					Source Code
+				</a>
 			</div>
 		</div>
 	);

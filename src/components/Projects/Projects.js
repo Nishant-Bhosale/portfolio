@@ -38,8 +38,8 @@ const Projects = () => {
 		<>
 			<h1>My Work</h1>
 			<div id="work" className="projects-container" projects={projects}>
-				{projects.map((project) => {
-					return <Project project={project} />;
+				{projects.map((project, index) => {
+					return <Project project={project} key={index} />;
 				})}
 			</div>
 		</>

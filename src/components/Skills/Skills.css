@@ -1,8 +1,6 @@
 #skills {
-	height: 1000px;
+	height: auto;
 	width: 100%;
-	/* background-color: rgb(0, 255, 157); */
-	/* background-color: rgb(4, 231, 220); */
 	background-color: white;
 	text-align: left;
 }
