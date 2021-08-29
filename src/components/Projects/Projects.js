@@ -35,11 +35,14 @@ const Projects = () => {
 	];
 
 	return (
-		<div id="work" className="projects-container" projects={projects}>
-			{projects.map((project) => {
-				return <Project project={project} />;
-			})}
-		</div>
+		<>
+			<h1>My Work</h1>
+			<div id="work" className="projects-container" projects={projects}>
+				{projects.map((project) => {
+					return <Project project={project} />;
+				})}
+			</div>
+		</>
 	);
 };
 

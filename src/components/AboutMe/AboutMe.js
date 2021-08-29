@@ -8,8 +8,8 @@ const AboutMe = () => {
 
 				<p>
 					I am curious person who loves to know how different things work
-					together. I love to <i>BUILD STUFF</i> and connect with people smarter
-					than me!
+					together. I love to BUILD STUFF and connect with people smarter than
+					me!
 				</p>
 				<p>
 					When I am not smashing the keyboard, you will find me playing
