@@ -15,11 +15,14 @@ const Project = (props) => {
 			</div>
 			<div className="project-description">
 				<h1>{title}</h1>
-				<a href={demoLink} className="button-link">
-					View Demo
-				</a>
+				{demoLink ? (
+					<a href={demoLink} className="button-link">
+						Demo
+					</a>
+				) : null}
+
 				<a href={sourceCodeLink} className="button-link">
-					Source Code
+					GitHub
 				</a>
 			</div>
 		</div>

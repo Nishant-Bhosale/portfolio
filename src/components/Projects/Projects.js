@@ -1,6 +1,6 @@
 import React from "react";
 import ecommerceImg from "../../images/ecommerce-site.png";
-import netflixCloneImg from "../../images/netflix-clone.png";
+import netflixCloneImg from "../../images/netflix.png";
 import contactKeeperImg from "../../images/contact-keeper.PNG";
 import chatAppImg from "../../images/socketio.png";
 import Project from "../Project/Project";
@@ -11,7 +11,7 @@ const Projects = () => {
 		{
 			title: "E-Commerce WebApp",
 			demoLink: "https://ecommerce-site-9d5dc7.netlify.app/",
-			sourceCodeLink: "",
+			sourceCodeLink: "https://github.com/Nishant-Bhosale/amazon-clone",
 			imageSrc: ecommerceImg,
 		},
 		{
@@ -23,13 +23,24 @@ const Projects = () => {
 		{
 			title: "Contact-Keeper",
 			demoLink: "http://contact-keeper7.herokuapp.com/",
-			sourceCodeLink: "",
+			sourceCodeLink: "https://github.com/Nishant-Bhosale/ContackKeeper",
 			imageSrc: contactKeeperImg,
 		},
 		{
 			title: "Chat-App",
 			demoLink: "https://evening-badlands-19902.herokuapp.com/",
-			sourceCodeLink: "",
+			sourceCodeLink: "https://github.com/Nishant-Bhosale/Chat-App",
+			imageSrc: chatAppImg,
+		},
+		{
+			title: "Hotel Menu Card",
+			sourceCodeLink: "https://github.com/Nishant-Bhosale/HotelMenuCard",
+			imageSrc: chatAppImg,
+		},
+		{
+			title: "Todo-List with TypeScript",
+			sourceCodeLink:
+				"https://github.com/Nishant-Bhosale/TodoAppWithTypescript",
 			imageSrc: chatAppImg,
 		},
 	];
