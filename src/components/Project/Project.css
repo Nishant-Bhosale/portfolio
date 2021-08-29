@@ -2,9 +2,8 @@
 	height: 350px;
 	position: relative;
 	margin: auto;
-	/* width: 500px; */
 	width: 100%;
-	border: 2px solid black;
+	border: 2px solid white;
 }
 
 .button-link {

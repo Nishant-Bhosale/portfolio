@@ -4,6 +4,8 @@ import netflixCloneImg from "../../images/netflix.png";
 import contactKeeperImg from "../../images/contact-keeper.PNG";
 import chatAppImg from "../../images/socketio.png";
 import Project from "../Project/Project";
+import HotelCard from "../../images/hotel.png";
+import TodoApp from "../../images/todo-app.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -36,25 +38,25 @@ const Projects = () => {
 		{
 			title: "Hotel Menu Card",
 			sourceCodeLink: "https://github.com/Nishant-Bhosale/HotelMenuCard",
-			imageSrc: chatAppImg,
+			imageSrc: HotelCard,
 		},
 		{
 			title: "Todo-List with TypeScript",
 			sourceCodeLink:
 				"https://github.com/Nishant-Bhosale/TodoAppWithTypescript",
-			imageSrc: chatAppImg,
+			imageSrc: TodoApp,
 		},
 	];
 
 	return (
-		<>
-			<h1>My Work</h1>
+		<div style={{ background: "rgb(40, 40, 40)" }}>
+			<h1 className="work-heading">My Work</h1>
 			<div id="work" className="projects-container" projects={projects}>
 				{projects.map((project, index) => {
 					return <Project project={project} key={index} />;
 				})}
 			</div>
-		</>
+		</div>
 	);
 };
 
