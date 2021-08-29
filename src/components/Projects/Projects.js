@@ -7,6 +7,7 @@ import Project from "../Project/Project";
 import "./Projects.css";
 
 const Projects = () => {
+	//List of projects
 	const projects = [
 		{
 			title: "E-Commerce WebApp",
