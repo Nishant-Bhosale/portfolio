@@ -12,7 +12,7 @@
 
 :root {
 	scroll-behavior: smooth;
-	scroll-padding-top: 30px;
+	scroll-padding-top: 360px;
 }
 
 .main-heading {
@@ -63,27 +63,25 @@ ul li {
 
 .about-me {
 	text-align: left;
-	/* background-color: rgb(25, 21, 89); */
 	background-color: black;
 	color: white;
-	padding: 2rem;
-	padding-top: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .about-me-info {
 	margin: 0 auto;
-	width: 60%;
-	padding: 20px;
+	width: 90%;
+	padding: 1rem 0;
 }
 
-.about-me-info h1 {
-	/* color: rgb(255, 251, 0); */
+.about-me-info h1{
 	color: white;
-	font-size: 3rem;
+   font-size: 2rem;
 }
 
 .about-me p {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 @keyframes lighting {
@@ -157,4 +155,27 @@ ul li:nth-child(14) {
 	100% {
 		content: "BASKETBALL";
 	}
+}
+
+@media screen and (min-width: 640px){
+   :root{
+		scroll-padding-top: 30px;
+	}
+
+	.about-me{
+		padding-top: 0;
+		padding: 2rem;
+	}
+
+	.about-me-info{
+		padding: 20px;
+		width: 60%;
+	}
+	.about-me p {
+		font-size: 1.5rem;
+	}
+	.about-me-info h1 {
+		font-size: 3rem;
+	}
+	
 }

@@ -62,6 +62,7 @@
 
 .project-description {
 	color: white;
+	font-size: 1.5rem;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -88,5 +89,9 @@
 		height: auto;
 		padding: 0.75rem;
 		margin: 1rem;
+	}
+
+	.project-description{
+     font-size: 2rem;
 	}
 }
