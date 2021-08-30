@@ -39,7 +39,7 @@ const Skills = () => {
 				{images.map((img, index) => {
 					return (
 						<div className={logoImage + " image-" + (index + 1)} key={index}>
-							<img src={img} alt="" />
+							<img src={img} alt="" className="skill-image" />
 						</div>
 					);
 				})}

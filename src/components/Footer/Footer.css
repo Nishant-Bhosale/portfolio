@@ -1,12 +1,11 @@
 .footer {
-	width: 100%;
 	padding: 3rem;
-	/* padding-top: 0; */
 	background: black;
 }
 
 .footer > h1 {
 	color: white;
+	margin: auto;
 	margin-top: 0;
 	margin-bottom: 3rem;
 }

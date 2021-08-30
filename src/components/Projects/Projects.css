@@ -15,3 +15,13 @@
 	padding-top: 3rem;
 	font-size: 3rem;
 }
+
+.all-projects-btn {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	border: 2px solid white;
+	padding: 1rem;
+	font-size: 1.25rem;
+	margin: 1rem auto;
+}

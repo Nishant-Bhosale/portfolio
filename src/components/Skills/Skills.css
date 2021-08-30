@@ -8,15 +8,14 @@
 #skills > h1 {
 	color: black;
 	margin-top: -1rem;
-	margin-left: 13.75rem;
-	padding: 3rem 0rem 0rem 3rem;
-	margin-bottom: -1rem;
-	font-size: 3rem;
+	padding: 2rem 0rem 0rem 2rem;
+	margin: auto;
+	font-size: 2rem;
 }
 
 .skills-container {
-	height: 650px;
-	width: 650px;
+	height: 300px;
+	width: 300px;
 	border-radius: 50%;
 	position: relative;
 	margin: auto;
@@ -33,11 +32,11 @@
 }
 
 .heart {
-	width: 4rem;
-	height: 4rem;
+	width: 2rem;
+	height: 2rem;
 	background-color: red;
-	top: 23rem;
-	left: 0.7rem;
+	top: 11rem;
+	left: 0rem;
 	position: relative;
 	margin: auto;
 	transform: rotate(135deg);
@@ -137,5 +136,37 @@
 	}
 	100% {
 		transform: rotateZ(360deg);
+	}
+}
+
+.skill-image {
+	height: 3rem;
+	width: 3rem;
+}
+
+@media screen and (min-width: 640px) {
+	.skills-container {
+		height: 650px;
+		width: 650px;
+	}
+
+	#skills > h1 {
+		margin-top: -1rem;
+		margin-left: 13.75rem;
+		padding: 3rem 0rem 0rem 3rem;
+		margin-bottom: -1rem;
+		font-size: 3rem;
+	}
+
+	.heart {
+		height: 4rem;
+		width: 4rem;
+		top: 23.5rem;
+		left: 0.7rem;
+	}
+
+	.skill-image {
+		height: auto;
+		width: auto;
 	}
 }

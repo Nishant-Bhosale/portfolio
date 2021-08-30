@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
 	return (
-		<footer className="footer">
+		<footer className="footer" id="contact">
 			<h1>Contact</h1>
 			<div className="social-links">
 				<a href="https://www.linkedin.com/in/nishant-bhosale-6777241b6/">
@@ -19,7 +19,7 @@ const Footer = () => {
 					<i className="fab fa-twitter"></i>
 				</a>
 			</div>
-			<p style={{ color: "white", margin: "1rem" }}>
+			<p style={{ color: "white", margin: "1rem", paddingTop: "2rem" }}>
 				Nishant Bhosale &copy; 2021
 			</p>
 		</footer>
