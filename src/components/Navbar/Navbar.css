@@ -24,7 +24,6 @@
 .navbar__title {
 	display: flex;
 	align-items: center;
-	width: 230px;
 	color: white;
 	text-decoration: none;
 }
@@ -89,6 +88,10 @@
 @media screen and (min-width: 801px) {
 	.navbar .navbar__menu {
 		display: none;
+	}
+
+	.navbar__title {
+		width: 230px;
 	}
 
 	.navbar h1 {

@@ -1,9 +1,7 @@
 .project-container {
-	height: 350px;
 	position: relative;
-	margin: auto;
+	margin: 1rem auto;
 	width: 100%;
-	border: 2px solid white;
 }
 
 .button-link {
@@ -11,11 +9,10 @@
 	position: relative;
 	width: 7rem;
 	z-index: 50;
-	height: auto;
-	padding: 0.75rem;
+	padding: 0.25rem;
 	font-size: 1.1rem;
 	background: transparent;
-	margin: 1rem;
+	margin: 0.25rem;
 	color: white;
 	text-decoration: none;
 	border-radius: 32px;
@@ -78,4 +75,18 @@
 	background-color: rgba(0, 0, 0, 0.774);
 	z-index: 400;
 	transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 640px) {
+	.project-container {
+		height: 350px;
+		margin: auto;
+		border: 2px solid white;
+	}
+
+	.button-link {
+		height: auto;
+		padding: 0.75rem;
+		margin: 1rem;
+	}
 }

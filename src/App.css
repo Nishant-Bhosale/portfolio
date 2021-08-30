@@ -7,6 +7,7 @@
 	text-align: center;
 	/* background-color: rgb(31, 195, 224); */
 	background-color: white;
+	overflow-x: hidden;
 }
 
 :root {
