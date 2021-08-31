@@ -15,7 +15,7 @@ const Project = (props) => {
 				/>
 			</div>
 			<div className="project-description">
-				<h1>{title}</h1>
+				<h2>{title}</h2>
 				{demoLink ? (
 					<a href={demoLink} className="button-link">
 						Demo

@@ -62,7 +62,7 @@
 
 .project-description {
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -91,7 +91,7 @@
 		margin: 1rem;
 	}
 
-	.project-description{
-     font-size: 2rem;
+	.project-description {
+		font-size: 2rem;
 	}
 }
