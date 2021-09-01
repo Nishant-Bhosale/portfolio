@@ -3,6 +3,22 @@
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+html::-webkit-scrollbar {
+	width: 1vw;
+}
+
+html::-webkit-scrollbar-thumb {
+	background-color: black;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(75, 75, 75);
+}
+
+html::-webkit-scrollbar-track {
+	background-color: rgba(68, 68, 68, 0.753);
+}
+
 .App {
 	text-align: center;
 	/* background-color: rgb(31, 195, 224); */

@@ -28,7 +28,8 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-color: rgb(100, 228, 26);
+	/* background-color: rgb(26, 228, 194); */
+	background-color: rgb(91, 217, 248);
 	z-index: -100;
 	transform: skew(-25deg);
 	transition: all 0.7s ease-in-out;
