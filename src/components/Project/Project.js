@@ -7,12 +7,7 @@ const Project = (props) => {
 	return (
 		<div className="project-container">
 			<div className="image-wrapper">
-				<img
-					src={imageSrc}
-					alt=""
-					loading="lazy"
-					style={{ height: "100%", width: "100%", aspectRatio: "16 / 9" }}
-				/>
+				<img src={imageSrc} alt="" loading="lazy" height="100%" width="100%" />
 			</div>
 			<div className="project-description">
 				<h2>{title}</h2>
