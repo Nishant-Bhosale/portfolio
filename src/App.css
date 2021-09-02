@@ -26,7 +26,7 @@ html::-webkit-scrollbar-track {
 
 :root {
 	scroll-behavior: smooth;
-	scroll-padding-top: 300px;
+	scroll-padding-top: 60px;
 }
 
 .main-heading {

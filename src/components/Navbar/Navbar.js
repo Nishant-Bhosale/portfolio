@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NavLink from "./NavLink/NavLink";
 import { MdMenu } from "react-icons/md";
 import "./Navbar.css";
 
@@ -7,6 +8,10 @@ const Navbar = () => {
 
 	const toggleNavbar = () => {
 		setExpanded((prevState) => (expanded = !prevState));
+	};
+
+	const hideNavbar = () => {
+		setExpanded(false);
 	};
 
 	const navLinksState = expanded ? " expanded" : "";
@@ -25,11 +30,21 @@ const Navbar = () => {
 					<MdMenu />
 				</button>
 				<div className={`navbar-links${navLinksState}`}>
-					<a href="/">Home</a>
-					<a href="#about">About</a>
-					<a href="/#skills">Skills</a>
-					<a href="/#work">Work</a>
-					<a href="/#contact">Contact</a>
+					<NavLink link="/" hide={hideNavbar}>
+						Home
+					</NavLink>
+					<NavLink link="#about" hide={hideNavbar}>
+						About
+					</NavLink>
+					<NavLink link="/#skills" hide={hideNavbar}>
+						Skills
+					</NavLink>
+					<NavLink link="/#work" hide={hideNavbar}>
+						Work
+					</NavLink>
+					<NavLink link="/#contact" hide={hideNavbar}>
+						Contact
+					</NavLink>
 				</div>
 			</div>
 		</div>
