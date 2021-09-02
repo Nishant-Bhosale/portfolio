@@ -21,13 +21,12 @@ html::-webkit-scrollbar-track {
 
 .App {
 	text-align: center;
-	/* background-color: rgb(31, 195, 224); */
 	overflow-x: hidden;
 }
 
 :root {
 	scroll-behavior: smooth;
-	scroll-padding-top: 360px;
+	scroll-padding-top: 300px;
 }
 
 .main-heading {
