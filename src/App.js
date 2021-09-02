@@ -6,14 +6,18 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Skills from "./components/Skills/Skills";
+import BackgroundAnimation from "./components/Background/Background";
 
 function App() {
 	return (
 		<BrowserRouter>
 			<div className="App">
 				<Navbar />
+				<div className="animation-container">
+					<BackgroundAnimation />
+				</div>
 				<div className="main-section">
-					<h2 style={{ color: "black" }}>Hii, I Am</h2>
+					<h2 style={{ color: "white" }}>Hii, I Am</h2>
 					<ul>
 						<li>N</li>
 						<li>I</li>

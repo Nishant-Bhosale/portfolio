@@ -1,0 +1,13 @@
+.animation-section {
+	width: 300px;
+	height: 300px;
+	background: rgb(25 19 52);
+	margin: auto;
+}
+
+@media screen and (min-width: 640px) {
+	.animation-section {
+		width: 520px;
+		height: 520px;
+	}
+}
