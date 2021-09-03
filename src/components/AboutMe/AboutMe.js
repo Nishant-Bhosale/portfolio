@@ -7,7 +7,7 @@ const AboutMe = () => {
 				<h1>About Me </h1>
 
 				<p>
-					I am a FullStack Developer curious person who loves to know how
+					I am a FullStack Developer and a curious person who loves to know how
 					different things work together. I love to BUILD STUFF and connect with
 					people smarter than me!
 				</p>
