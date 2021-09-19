@@ -18,6 +18,12 @@ const Footer = () => {
 				<a href="https://twitter.com/Nishant02914093">
 					<i className="fab fa-twitter"></i>
 				</a>
+				<a
+					href="https://stackoverflow.com/users/16058244/nishant-bhosale"
+					style={{ color: "white", fontSize: "2rem" }}
+				>
+					<i className="fa fa-stack-overflow"></i>
+				</a>
 			</div>
 			<p style={{ color: "white", margin: "1rem", paddingTop: "2rem" }}>
 				Nishant Bhosale &copy; 2021
