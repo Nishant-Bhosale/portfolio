@@ -30,7 +30,7 @@ const Navbar = () => {
 					<MdMenu />
 				</button>
 				<div className={`navbar-links${navLinksState}`}>
-					<NavLink link="/" hide={hideNavbar}>
+					<NavLink link="#home" hide={hideNavbar}>
 						Home
 					</NavLink>
 					<NavLink link="#about" hide={hideNavbar}>

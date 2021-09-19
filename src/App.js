@@ -14,7 +14,7 @@ function App() {
 		<BrowserRouter>
 			<div className="App">
 				<Navbar />
-				<div className="animation-container">
+				<div className="animation-container" id="home">
 					<BackgroundAnimation />
 				</div>
 				<MainSection />
