@@ -5,7 +5,7 @@ import contactKeeperImg from '../../images/contact-keeper.PNG';
 import chatAppImg from '../../images/socketio.png';
 import Project from '../Project/Project';
 import gamerDiaryImg from '../../images/theGamerDiary.jpg';
-import TodoApp from '../../images/todo-app.png';
+import PingPong from '../../images/ping-pong.PNG';
 import './Projects.css';
 
 const Projects = () => {
@@ -35,7 +35,6 @@ const Projects = () => {
 			sourceCodeLink: 'https://github.com/Nishant-Bhosale/ContackKeeper',
 			imageSrc: contactKeeperImg,
 		},
-
 		{
 			title: 'Chat-App',
 			demoLink: 'https://evening-badlands-19902.herokuapp.com/',
@@ -43,10 +42,11 @@ const Projects = () => {
 			imageSrc: chatAppImg,
 		},
 		{
-			title: 'Todo-List with TypeScript',
+			title: 'Ping-Pong Game',
+			demoLink: 'https://ping-pong-yeyaaaa.netlify.app/',
 			sourceCodeLink:
-				'https://github.com/Nishant-Bhosale/TodoAppWithTypescript',
-			imageSrc: TodoApp,
+				'https://github.com/Nishant-Bhosale/Ping-Pong_Game',
+			imageSrc: PingPong,
 		},
 	];
 
