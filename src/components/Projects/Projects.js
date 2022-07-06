@@ -5,7 +5,7 @@ import contactKeeperImg from "../../images/contact-keeper.PNG";
 import chatAppImg from "../../images/socketio.png";
 import Project from "../Project/Project";
 import blogImage from "../../images/blog-image.PNG";
-import PingPong from "../../images/ping-pong.PNG";
+import CPMC from "../../images/cpmc-website.PNG";
 import "./Projects.css";
 
 const Projects = () => {
@@ -30,6 +30,12 @@ const Projects = () => {
 			imageSrc: ecommerceImg,
 		},
 		{
+			title: "CPMC Website",
+			demoLink: "https://cpmc-dypcoe.vercel.app/",
+			sourceCodeLink: "https://github.com/Spyware007/CPMC-DYPCOE-OFFICIAL",
+			imageSrc: CPMC,
+		},
+		{
 			title: "Netflix-Clone",
 			demoLink: "http://netflix-movie-app-clone.herokuapp.com/",
 			sourceCodeLink: "https://github.com/Nishant-Bhosale/MovieApp",
@@ -40,12 +46,6 @@ const Projects = () => {
 			demoLink: "https://evening-badlands-19902.herokuapp.com/",
 			sourceCodeLink: "https://github.com/Nishant-Bhosale/Chat-App",
 			imageSrc: chatAppImg,
-		},
-		{
-			title: "Ping-Pong Game",
-			demoLink: "https://ping-pong-yeyaaaa.netlify.app/",
-			sourceCodeLink: "https://github.com/Nishant-Bhosale/Ping-Pong_Game",
-			imageSrc: PingPong,
 		},
 	];
 
