@@ -18,6 +18,12 @@ const Projects = () => {
 			imageSrc: blogImage,
 		},
 		{
+			title: "Contact-Keeper",
+			demoLink: "http://contact-keeper7.herokuapp.com/",
+			sourceCodeLink: "https://github.com/Nishant-Bhosale/ContackKeeper",
+			imageSrc: contactKeeperImg,
+		},
+		{
 			title: "E-Commerce WebApp",
 			demoLink: "https://ecommerce-site-9d5dc7.netlify.app/",
 			sourceCodeLink: "https://github.com/Nishant-Bhosale/amazon-clone",
@@ -28,12 +34,6 @@ const Projects = () => {
 			demoLink: "http://netflix-movie-app-clone.herokuapp.com/",
 			sourceCodeLink: "https://github.com/Nishant-Bhosale/MovieApp",
 			imageSrc: netflixCloneImg,
-		},
-		{
-			title: "Contact-Keeper",
-			demoLink: "http://contact-keeper7.herokuapp.com/",
-			sourceCodeLink: "https://github.com/Nishant-Bhosale/ContackKeeper",
-			imageSrc: contactKeeperImg,
 		},
 		{
 			title: "Chat-App",
