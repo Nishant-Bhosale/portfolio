@@ -12,12 +12,22 @@ const Project = (props) => {
 			<div className="project-description">
 				<h2>{title}</h2>
 				{demoLink ? (
-					<a href={demoLink} className="button-link">
+					<a
+						href={demoLink}
+						className="button-link"
+						target="_blank"
+						rel="noreferrer noopener"
+					>
 						Demo
 					</a>
 				) : null}
 
-				<a href={sourceCodeLink} className="button-link">
+				<a
+					href={sourceCodeLink}
+					className="button-link"
+					target="_blank"
+					rel="noreferrer noopener"
+				>
 					GitHub
 				</a>
 			</div>
